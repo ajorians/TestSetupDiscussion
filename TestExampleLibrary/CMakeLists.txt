@@ -1,6 +1,7 @@
 set(TEST_FILES
     TestExampleClass_Approach1.cpp
-    TestExampleClass_Approach2.cpp)
+    TestExampleClass_Approach2.cpp
+    TestExampleClass_Approach3.cpp)
 
 set(MOCK_FILES
     Mocks/mockDependency1.h
