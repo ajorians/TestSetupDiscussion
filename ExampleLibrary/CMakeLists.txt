@@ -1,4 +1,4 @@
-add_library(ExampleLibrary SHARED
+add_library(ExampleLibrary STATIC
                Dependency1.cpp
                Includes/Example/Dependency1.h
                Dependency2.cpp
@@ -12,7 +12,6 @@ add_library(ExampleLibrary SHARED
                Includes/Example/IDependency3.h
                Includes/Example/IDependency4.h
                ExampleClass.cpp
-               Includes/Example/ExampleClass.h
-               ExampleProgram.cpp)
+               Includes/Example/ExampleClass.h)
 
 target_include_directories( ExampleLibrary PUBLIC Includes )
