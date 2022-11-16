@@ -1,4 +1,4 @@
-# IdentityProductSDK
+# GitIgnore
 # ==================
 
 *.nupkg
@@ -407,3 +407,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# CMake stuff
+out/build
